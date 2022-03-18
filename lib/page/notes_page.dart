@@ -106,6 +106,8 @@ class _NotesPageState extends State<NotesPage> {
             },
             child: NoteCardWidget(note: note, index: index),
           );
+
+          
         },
       );
 }
