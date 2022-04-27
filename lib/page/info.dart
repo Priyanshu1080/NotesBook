@@ -19,7 +19,7 @@ class Information extends StatelessWidget {
             children: [
               Container(
                 child: Text(
-                  "To-Do App!",
+                  "Welcome to NotesBook.",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 25,
@@ -28,7 +28,7 @@ class Information extends StatelessWidget {
                   textAlign: TextAlign.left,
                 ),
               ),
-              SizedBox(height: 30,),
+              SizedBox(height: 50,),
               Container(
                 /*fit: BoxFit.fill,
                 child: Image.asset("assets/images/to-do.png"),
@@ -42,7 +42,7 @@ class Information extends StatelessWidget {
               SizedBox(height: 30,),
               Container(
                 child: Text(
-                    "It's said that the human mind has thousands of thoughts throughout the day.Considering that, it is sometimes too difficult to focus on the important tasks of the day.Also, given our fast and hectic lives nowadays, we tend to forget even more. Hence, noting down a few important tasks or goals for the day helps us to better manage our day.",style: TextStyle(
+                    "It's said that the human mind has thousands of thoughts throughout the day.Considering that, it is sometimes too difficult to focus on the important tasks of the day. NotesBook allows you to hence create short notes to keep all the important and useful info with you for your reference.",style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
                     fontStyle: FontStyle.italic,
